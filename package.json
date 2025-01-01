@@ -1,0 +1,27 @@
+{
+  "name": "newcode-algo",
+  "version": "1.0.0",
+  "description": "Learning Data Structures and Algorithms",
+  "author": "New Code Wen",
+  "license": "MIT",
+  "homepage": "https://github.com/newcodewen/newcode-algo#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newcodewen/newcode-algo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/newcodewen/newcode-algo/issues"
+  },
+  "main": "index.ts",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.12.1",
+    "eslint": "^9.17.0"
+  }
+}
